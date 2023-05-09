@@ -8,7 +8,7 @@ include __DIR__ . '/views/layout/head.php';
     include_once __DIR__. '/helpers/action.php'
     ?>
     <main>
-    <section class="newsletter bg-dark text-light py-5">
+    <section class="newsletter bg-success text-light py-5">
         <div class="container">
             <h3>Generate your password HERE</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia possimus, explicabo amet quisquam laborum delectus quam iusto nemo consequuntur sint nulla quod sit aut animi molestiae corrupti atque? Eius, eveniet!
@@ -43,7 +43,7 @@ include __DIR__ . '/views/layout/head.php';
                     <button type="reset" class="btn btn-secondary">Annulla</button>   
                 </div>
                 <div class="d-flex justify-content-center">
-                <span><strong>La tua password è: <?= $password ?></strong></span>
+                <span class="p-5 bg-dark"><strong></strong></strong></strong>La tua password è: <?= $password ?></strong></span>
             </div>
 
             </form>

@@ -1,4 +1,4 @@
-<header class="bg-dark text-white">
+<header class="text-white bg-dark">
     <div class="container">
         <div class="row">
             <h1>php-strong-password-generator</h1>
