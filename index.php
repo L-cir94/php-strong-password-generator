@@ -8,12 +8,6 @@ include __DIR__ . '/views/layout/head.php';
     ?>
     <main>
         <?php
-        include __DIR__ . '/views/partials/jumbutron.php';
-        ?>
-        <?php
-        include __DIR__ . '/views/partials/company.php';
-        ?>
-        <?php
         include __DIR__ . '/views/partials/password_generator.php';
         ?>
     </main>
