@@ -8,7 +8,7 @@ include __DIR__ . '/views/layout/head.php';
     ?>
     <main>
         <?php
-        include __DIR__ . '/views/partials/password_generator.php';
+        include __DIR__ . '/views/partials/passwordGenerator.php';
         ?>
     </main>
     <?php

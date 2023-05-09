@@ -18,7 +18,6 @@ $password = random_string($string)
             <h3>Generate your password HERE</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia possimus, explicabo amet quisquam laborum delectus quam iusto nemo consequuntur sint nulla quod sit aut animi molestiae corrupti atque? Eius, eveniet!
             </p>
-           
             <form action="" method="get">
                 <div class="d-flex justify-content-between align-items-center">
                     <p class="mb-0">Lunghezza Password:</p>
