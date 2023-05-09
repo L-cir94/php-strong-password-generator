@@ -1,46 +1,10 @@
-<?php
-if (!empty($_GET['email'])) {
-    /*     var_dump('check email'); */
-    //leggo il get
-    $email = $_GET['email'];
-    /*     var_dump($email); */
-    //controllo se la stringa contiene la stringa e la chiocciola
-    if (str_contains($email, '@') && str_contains($email, '.')) {
-        /*  var_dump('ok'); */
-        $alert = [
-            'status' => 'success',
-            'message' => 'you are in the list!'
-        ];
-    } else {
-        /* var_dump('there is no @ or . please check'); */
-        $alert = [
-            'status' => 'danger',
-            'message' => 'danger something went wrong'
-        ];
-    }
-}?>
-<?php
-function random_string($length)
-{
-   $string = "";
-   $chars = "abcdefghijklmanopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-   $size = strlen($chars);
-   for ($i = 0; $i < $_GET['passwordLength']; $i++) {
-       $string .= $chars[rand(0, $size - 1)];
-
-   }
-   return $string; 
-}
-
-$password = random_string($string)
-?>
 <section class="newsletter bg-dark text-light py-5">
         <div class="container">
             <h3>Generate your password HERE</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia possimus, explicabo amet quisquam laborum delectus quam iusto nemo consequuntur sint nulla quod sit aut animi molestiae corrupti atque? Eius, eveniet!
             </p>
            
-            <form action="" method="get">
+            <form action="helpers/functions.php" method="get">
                 <div class="d-flex justify-content-between align-items-center">
                     <p class="mb-0">Lunghezza Password:</p>
                     <div>
